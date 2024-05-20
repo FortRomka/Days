@@ -1,0 +1,32 @@
+.container .day li:first-child {
+    color: blue;
+  }
+  
+  .container .day li:last-child {
+    color: green; 
+  }
+  
+  .container .day li:nth-child(odd) {
+    background-color: #f2f2f2; 
+  }
+  
+  .container .day li:hover {
+    color: red; 
+  }
+  
+  .container .day li:active {
+    color: yellow; 
+  }
+  
+  .container .day li:focus {
+    color: purple; 
+  }
+  
+  .container .day li:visited {
+    color: orange; 
+  }
+  
+  .container .day li:not(:first-child):not(:last-child) {
+    color: pink; 
+  }
+  
